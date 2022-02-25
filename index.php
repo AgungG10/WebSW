@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="style.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
     <style>
       html,body{
         height: 100%;
@@ -32,6 +33,27 @@
         /* max-width: 10%; */
       }
 
+      .judul{
+        line-height: 0.8;
+        letter-spacing: -0.005em;
+        text-align: center;
+        font-size: 80px;
+        font-weight: 800;
+        font-family: 'Marck Script';
+      }
+
+      .frontPict{
+        z-index: 1;
+        margin-left: -15px;
+        margin-top: 230px;
+      }
+
+      .tombolOpen{
+        border-radius: 20px;
+        background: #FFFFFF;
+        height: 34px;
+      }
+
 
       </style>
 
@@ -46,14 +68,19 @@
           <!-- <h1>Hello, world!</h1> -->
           <div class="square">
             <div class="content mt-3 d-flex justify-content-center">
-              HALOOOOOO & HOLAAAAAAA
+              <div class="judul mt-3">Samsul<br>&<br>Wulan</div>  
             </div>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-12  d-flex justify-content-center">
-          <img src="image/wedding.png" alt="SW" srcset="" height="300px">
+          <img src="image/wedding.png" class="frontPict" alt="SW" srcset="" height="400px">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+          <a href="home.php" class="btn btn-outline-light btn-sm mt-5" type="button">Buka Undangan</a>
         </div>
       </div>
     </div>
